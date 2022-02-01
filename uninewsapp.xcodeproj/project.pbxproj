@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A60EA6127A8FFDC004B2B9D /* uninewsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60EA4E27A8FFD8004B2B9D /* uninewsappApp.swift */; };
+		2A60EA6227A8FFDC004B2B9D /* uninewsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60EA4E27A8FFD8004B2B9D /* uninewsappApp.swift */; };
+		2A60EA6327A8FFDC004B2B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60EA4F27A8FFD8004B2B9D /* ContentView.swift */; };
+		2A60EA6427A8FFDC004B2B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60EA4F27A8FFD8004B2B9D /* ContentView.swift */; };
+		2A60EA6527A8FFDC004B2B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A60EA5027A8FFDB004B2B9D /* Assets.xcassets */; };
+		2A60EA6627A8FFDC004B2B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A60EA5027A8FFDB004B2B9D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A60EA4E27A8FFD8004B2B9D /* uninewsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uninewsappApp.swift; sourceTree = "<group>"; };
+		2A60EA4F27A8FFD8004B2B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A60EA5027A8FFDB004B2B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A60EA5527A8FFDB004B2B9D /* uninewsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uninewsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A60EA5827A8FFDB004B2B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A60EA5D27A8FFDB004B2B9D /* uninewsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uninewsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A60EA5F27A8FFDB004B2B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A60EA6027A8FFDC004B2B9D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A60EA5227A8FFDB004B2B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A60EA5A27A8FFDB004B2B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A60EA4827A8FFD8004B2B9D = {
+			isa = PBXGroup;
+			children = (
+				2A60EA4D27A8FFD8004B2B9D /* Shared */,
+				2A60EA5727A8FFDB004B2B9D /* iOS */,
+				2A60EA5E27A8FFDB004B2B9D /* macOS */,
+				2A60EA5627A8FFDB004B2B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A60EA4D27A8FFD8004B2B9D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2A60EA4E27A8FFD8004B2B9D /* uninewsappApp.swift */,
+				2A60EA4F27A8FFD8004B2B9D /* ContentView.swift */,
+				2A60EA5027A8FFDB004B2B9D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2A60EA5627A8FFDB004B2B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A60EA5527A8FFDB004B2B9D /* uninewsapp.app */,
+				2A60EA5D27A8FFDB004B2B9D /* uninewsapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A60EA5727A8FFDB004B2B9D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A60EA5827A8FFDB004B2B9D /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2A60EA5E27A8FFDB004B2B9D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A60EA5F27A8FFDB004B2B9D /* Info.plist */,
+				2A60EA6027A8FFDC004B2B9D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A60EA5427A8FFDB004B2B9D /* uninewsapp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A60EA6927A8FFDC004B2B9D /* Build configuration list for PBXNativeTarget "uninewsapp (iOS)" */;
+			buildPhases = (
+				2A60EA5127A8FFDB004B2B9D /* Sources */,
+				2A60EA5227A8FFDB004B2B9D /* Frameworks */,
+				2A60EA5327A8FFDB004B2B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uninewsapp (iOS)";
+			productName = "uninewsapp (iOS)";
+			productReference = 2A60EA5527A8FFDB004B2B9D /* uninewsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A60EA5C27A8FFDB004B2B9D /* uninewsapp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A60EA6C27A8FFDC004B2B9D /* Build configuration list for PBXNativeTarget "uninewsapp (macOS)" */;
+			buildPhases = (
+				2A60EA5927A8FFDB004B2B9D /* Sources */,
+				2A60EA5A27A8FFDB004B2B9D /* Frameworks */,
+				2A60EA5B27A8FFDB004B2B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uninewsapp (macOS)";
+			productName = "uninewsapp (macOS)";
+			productReference = 2A60EA5D27A8FFDB004B2B9D /* uninewsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A60EA4927A8FFD8004B2B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2A60EA5427A8FFDB004B2B9D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2A60EA5C27A8FFDB004B2B9D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 2A60EA4C27A8FFD8004B2B9D /* Build configuration list for PBXProject "uninewsapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A60EA4827A8FFD8004B2B9D;
+			productRefGroup = 2A60EA5627A8FFDB004B2B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A60EA5427A8FFDB004B2B9D /* uninewsapp (iOS) */,
+				2A60EA5C27A8FFDB004B2B9D /* uninewsapp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A60EA5327A8FFDB004B2B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A60EA6527A8FFDC004B2B9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A60EA5B27A8FFDB004B2B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A60EA6627A8FFDC004B2B9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A60EA5127A8FFDB004B2B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A60EA6327A8FFDC004B2B9D /* ContentView.swift in Sources */,
+				2A60EA6127A8FFDC004B2B9D /* uninewsappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A60EA5927A8FFDB004B2B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A60EA6427A8FFDC004B2B9D /* ContentView.swift in Sources */,
+				2A60EA6227A8FFDC004B2B9D /* uninewsappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A60EA6727A8FFDC004B2B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A60EA6827A8FFDC004B2B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2A60EA6A27A8FFDC004B2B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uninewsapp.uninewsapp;
+				PRODUCT_NAME = uninewsapp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A60EA6B27A8FFDC004B2B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uninewsapp.uninewsapp;
+				PRODUCT_NAME = uninewsapp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A60EA6D27A8FFDC004B2B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uninewsapp.uninewsapp;
+				PRODUCT_NAME = uninewsapp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A60EA6E27A8FFDC004B2B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uninewsapp.uninewsapp;
+				PRODUCT_NAME = uninewsapp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A60EA4C27A8FFD8004B2B9D /* Build configuration list for PBXProject "uninewsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A60EA6727A8FFDC004B2B9D /* Debug */,
+				2A60EA6827A8FFDC004B2B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A60EA6927A8FFDC004B2B9D /* Build configuration list for PBXNativeTarget "uninewsapp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A60EA6A27A8FFDC004B2B9D /* Debug */,
+				2A60EA6B27A8FFDC004B2B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A60EA6C27A8FFDC004B2B9D /* Build configuration list for PBXNativeTarget "uninewsapp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A60EA6D27A8FFDC004B2B9D /* Debug */,
+				2A60EA6E27A8FFDC004B2B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A60EA4927A8FFD8004B2B9D /* Project object */;
+}
